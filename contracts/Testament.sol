@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.0;
 
-contract Testement {
+contract Testament {
     address owner;
     address[] allowedWithdrawals;
     mapping(address => uint256) withdrawalPercentages;
